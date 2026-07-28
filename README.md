@@ -6,11 +6,11 @@
 
 ```mermaid
 flowchart LR
-    A["📝 요구사항 문서화\nrequirements/YYYY-Www/"] --> B["🧭 설계 · 정책 반영\ndocs/domain-model.md\ndocs/policies.md"]
-    B --> C["✅ 작업 분해\ntasks/YYYY-Www.md"]
-    C --> D["⚙️ 구현 + 테스트"]
-    D --> E["🔁 회고\nCLAUDE.md 갱신"]
-    E -.다음 요구사항.-> A
+    A[요구사항 문서화] --> B[설계 · 정책 반영]
+    B --> C[작업 분해]
+    C --> D[구현 + 테스트]
+    D --> E[회고]
+    E -.-> A
 ```
 
 ## 설치
@@ -24,12 +24,10 @@ rm -rf .claude/skills/my-workflow-init/.git
 
 ## 사용
 
-Claude Code 세션에서 스킬을 호출합니다.
+Claude Code 세션에서 한 문장이면 됩니다.
 
 ```
 "요구사항 워크플로우 세팅해줘"
-"이 워크플로우 이식해줘"
-"requirements/tasks 구조 만들어줘"
 ```
 
 ### 세팅되는 것
