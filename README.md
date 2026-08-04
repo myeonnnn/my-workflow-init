@@ -69,4 +69,5 @@ flowchart TB
 ## 참고
 
 - [`SKILL.md`](./SKILL.md) — 스킬이 따르는 상세 절차와 예외 조항
+- [`SPEC.md`](./SPEC.md) — 설계 스펙
 - [`templates/`](./templates) — 실제로 복사되는 산출물 원본 (즉석 재작성 없음)

@@ -21,7 +21,8 @@ description: 요구사항 문서(requirements/)와 진행 체크리스트(tasks/
 ## 2. docs/ 스텁
 
 - `docs/policies.md`가 없으면 `templates/policies.md`로 생성.
-- `docs/domain-model.md`가 없으면 `templates/domain-model.md`로 생성. 이미 다른 설계 문서가 있다면 강제로 만들지 않는다 (사용자에게 확인).
+- `docs/domain-model.md`가 없으면 `templates/domain-model.md`로 생성.
+- 두 파일의 존재 여부는 0단계에서 이미 확인했다 — 있으면 그때 사용자가 정한 방침(건너뛰기/병합)을 그대로 따른다. 이 단계에서 "다른 설계 문서가 있으면 스킵" 같은 별도 판단을 추가로 하지 않는다.
 
 ## 3. CLAUDE.md에 절차 섹션 추가
 
