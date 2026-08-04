@@ -1,4 +1,4 @@
-# my-workflow-init
+# my-workflow
 
 요구사항 문서(`requirements/`)와 진행 체크리스트(`tasks/`)를 **ISO 주차(`YYYY-Www`) 단위**로 분리 관리하는 워크플로우를, 새 프로젝트에 그대로 부트스트랩하는 [Claude Code](https://claude.com/claude-code) 스킬입니다.
 
@@ -15,11 +15,11 @@ flowchart LR
 
 ## 설치
 
-이 저장소의 내용을 프로젝트의 `.claude/skills/my-workflow-init/`에 그대로 복사(또는 서브모듈/clone)합니다.
+이 저장소의 내용을 프로젝트의 `.claude/skills/my-workflow/`에 그대로 복사(또는 서브모듈/clone)합니다.
 
 ```bash
-git clone https://github.com/myeonnnn/my-workflow-init.git .claude/skills/my-workflow-init
-rm -rf .claude/skills/my-workflow-init/.git
+git clone https://github.com/myeonnnn/my-workflow.git .claude/skills/my-workflow
+rm -rf .claude/skills/my-workflow/.git
 ```
 
 ## 사용

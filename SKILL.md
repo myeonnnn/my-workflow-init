@@ -1,9 +1,9 @@
 ---
-name: my-workflow-init
+name: my-workflow
 description: 요구사항 문서(requirements/)와 진행 체크리스트(tasks/)를 ISO 주차 폴더 단위로 분리 관리하는 워크플로우를 현재 프로젝트에 부트스트랩한다. domain-model.md/policies.md 스텁, CLAUDE.md 절차 섹션까지 포함. "이 워크플로우 이식해줘", "요구사항 워크플로우 세팅해줘", "requirements/tasks 구조 만들어줘" 같은 요청에 사용.
 ---
 
-# my-workflow-init
+# my-workflow
 
 요구사항 문서화 → 설계/정책 반영 → 작업 분해 → 구현 → 회고로 이어지는 절차를, 새 프로젝트에도 같은 폴더 구조/문서로 그대로 옮겨 쓰기 위한 스캐폴딩 스킬. 이 스킬 자체가 만드는 산출물(각 템플릿 파일)은 `templates/`에 있으며, 그 내용을 그대로 복사해 붙여넣는다 — 즉석에서 다시 작성하지 않는다.
 
